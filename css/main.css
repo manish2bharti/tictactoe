@@ -1,0 +1,159 @@
+#main_block{
+	width: 800px;
+	height: 600px;
+	margin:10px auto;
+	padding: 20px;
+	background: #ccc;
+}
+
+#main_block_dashboard{
+	width: 99%;
+	height:99%;
+	border: 2px solid white;
+	padding: 5px; 
+}
+
+.dashboard_left_child{
+	float: left;
+	height: 95%;
+	width:75%;
+}
+
+.field_box{
+	width: 98%;
+	height: 15%;
+	padding-left: 10px;	
+}
+
+.label_tag{
+	font-weight: bold;
+	font-size: 20px;
+	margin-top: 20px;
+	color: white;
+	line-height: 40px;
+	float: left;
+}
+
+#number_cells{
+	text-align: right;
+	height: 25px;
+	width: 70px;
+	margin-left: 25px;
+	font-size: 18px;
+	font-weight: bold;
+	color: gray;
+}
+
+#button_cells{
+	margin-left: 25px;	
+	height: 30px;
+	width: 125px;
+	font-size: 16px;
+}
+
+.TicTacToe_container{
+	width: 95%;
+	height: 80%;
+	margin-top: 5px;
+	text-align: center;
+	padding: 10px;
+}
+
+#TicTacToe_dasboard{
+	display: inline-block;
+	width: auto;
+	height: auto;
+}
+
+.TicTacToe_block{
+	width: 90px;
+	height: 90px;
+	display: inline-block;
+	float: left;
+	border: 1px solid green;
+	margin-left: 2px;
+	margin-top: 2px;
+	background-color: #425861;
+	cursor:hand;
+	font-family: Comic Sans MS;
+}
+.TicTacToe_block span{
+	font-size:60px; color:#fff;
+	width:100%;
+	height:100%;
+	float:left;
+	font-family: Comic Sans MS;
+}
+.dashboard_right_child{
+	float: left;
+	height: 95%;
+	width: 20%;
+}
+
+.TicTacToe_player_tag{
+	font-weight: bold;
+	font-size: 20px;
+	margin-top: 20px;
+	color: white;
+	line-height: 40px;
+	float: left;
+	display: inline-block;
+}
+
+.player_text_field{
+	text-align: right;
+	height: 25px;
+	width: 70px;
+	margin-left: 25px;
+	font-size: 18px;
+	font-weight: bold;
+	color:blue;
+}
+
+.score_block{
+	margin-top: 20px;
+	width: 95%;
+	height: 25px;
+	display: inline-block;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.score_tag{
+	text-align: center;
+	color: white;
+	font-size: 25px;
+	width: 100%;
+	height: auto;
+	line-height: 25px;
+	font-weight: bold;
+}
+
+.player_score_container{
+	display: inline-block;
+	width: 100%;
+	height: auto;
+}
+
+.playerScoreHead{
+	float: left;
+	font-size: 20px;
+	color: white;
+	font-weight: bold;
+	margin-top: 5px;
+	margin-left: 25px;
+}
+.fr{ float:right}
+#player_one_score_count, #player_two_score_count{
+	float: left;
+	font-family: Comic Sans MS;
+	font-size: 20px;
+	color: white;
+	font-weight: bold;
+	margin-top: 5px;
+	margin-left: 25px;	
+}
+
+#player_two_score_count{
+	float: right;
+}
